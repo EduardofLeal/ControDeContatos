@@ -6,6 +6,19 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Views\ContatoController2\**" />
+    <Content Remove="Views\ContatoController2\**" />
+    <EmbeddedResource Remove="Views\ContatoController2\**" />
+    <None Remove="Views\ContatoController2\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Controllers\ContatoController.cs" />
+    <Compile Remove="Controllers\ContatoController2.cs" />
+    <Compile Remove="Controllers\HomeController1.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="5.0.15" />
   </ItemGroup>
 
